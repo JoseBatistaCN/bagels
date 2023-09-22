@@ -1,17 +1,17 @@
-# Jogo Bagels em python desenvolvido usando TDD
+# Bagels game in python developed using TDD
 
-## Introdução
+## Introduction
 
-Neste projeto, desenvolvi um jogo Bagels em python, aplicando a metodologia de desenvolvimento Orientada a Testes (TDD).
+In this project, i developed a game call Bagels in Python, applying the Test-Driven Development (TDD) methodology
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto está organizado da seguinte forma:
+The project is organized as follows.
 
-- 'bagels.py': O código fonte do jogo.
-- 'bagels_test.py': Os testes unitários para o jogo Bagels.
-- 'README.md': O arquivo de documentação.
+- 'bagels.py': The source code file.
+- 'bagels_test.py': Unit tests for the game Bagels.
+- 'README.md': The documentation file.
 
-### Configuração do Ambiente
+### Environment Setting
 
-- Configurar um ambiente Python com suporte a testes usando 'unittest'.
+- Configure a Python environment with testing support using 'unittest'.
