@@ -1,7 +1,11 @@
+from random import randrange
+
+
 class BagelsGame:
     
     def __init__(self):
         self.DIGITS_QUANTITY = 3
+        self.thought_number = self.generateThoughtNumber()
         
     def showPresentation():
         print
@@ -30,3 +34,7 @@ When I say:     That means:
         max_number = 10 ** digits_quantity - 1
         
         return (min_number, max_number)     
+
+    def generateThoughtNumber(self) -> int:
+        (min_number, max_number) = self.generateMinAndMaxValue()
+        return randrange(min_number, max_number + 1)
