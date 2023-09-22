@@ -1,5 +1,3 @@
-from random import randrange
-
 class BagelsGame:
     
     def __init__(self):
